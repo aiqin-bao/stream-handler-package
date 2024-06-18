@@ -1,0 +1,23 @@
+{
+    "name": "stream-handler-package",
+    "version": "1.0.1",
+    "description": "A package for handling SSE responses and aggregating questions",
+    "main": "dist/index.cjs.js",
+    "module": "dist/index.esm.js",
+    "scripts": {
+        "build": "rollup -c"
+    },
+    "type": "module",
+    "author": "aiqin_bao",
+    "license": "MIT",
+    "devDependencies": {
+        "@rollup/plugin-commonjs": "^21.0.2",
+        "@rollup/plugin-node-resolve": "^13.1.3",
+        "@rollup/plugin-typescript": "^8.2.5",
+        "rollup": "^2.75.6",
+        "typescript": "^4.5.4"
+    },
+    "dependencies": {
+        "tslib": "^2.6.3"
+    }
+}
