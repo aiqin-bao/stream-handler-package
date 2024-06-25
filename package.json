@@ -1,9 +1,11 @@
 {
     "name": "stream-handler-package",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "description": "A package for handling SSE responses and aggregating questions",
     "main": "dist/index.cjs.js",
     "module": "dist/index.esm.js",
+    "types": "dist/index.d.ts",
+    "github": "https://github.com/aiqin-bao/stream-handler-package",
     "scripts": {
         "build": "rollup -c"
     },

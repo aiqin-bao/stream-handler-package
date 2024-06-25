@@ -17,6 +17,6 @@ export default {
     plugins: [
         nodeResolve(),
         commonjs(),
-        typescript()
+        typescript({ declaration: true, declarationDir: 'dist' })
     ]
 };
